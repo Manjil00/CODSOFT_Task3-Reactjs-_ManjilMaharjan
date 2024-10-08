@@ -11,8 +11,13 @@ module.exports = {
       },
 animation:{
   typewriter:'typewriter 2s linear infinite',
-}
-    },
+},
+colors:{
+  bgdeepTurquoise:'#17616E',
+  orange:'#FD8916',
+  },
+  },
+  
   },
   plugins: [],
 }

@@ -19,14 +19,11 @@ return (
         <div className="inputs flex flex-col justify-center items-center relative h-full w-full">
             <input type="text" placeholder='Username' className='inputfield w-[300px] h-[50px] rounded-xl p-4 mt-12'/>
             <input type="password" placeholder='Password'  className='inputfield w-[300px] h-[50px] rounded-xl p-4 mt-10'/>
-            <button className='bg-white h-[50px]  w-[100px] rounded-xl text-black font-sans mt-10'>Login</button>
-            <Link to="/Register"> <h2 className='underline font-sans text-white text-sm md:text-lg cursor-pointer mt-5'>Register</h2></Link>
+            <Link to="/Home"> <button className='bg-bgdeepTurquoise h-[50px]  w-[100px] rounded-xl text-orange font-sans mt-10'>Login</button></Link>
+            <Link to="/Register"> <h2 className='underline font-sans text-orange text-sm md:text-lg cursor-pointer mt-5'>Register</h2></Link>
         </div>
-
-
     </div>
-        </div>
-
+</div>
     </div>
 )
 }
