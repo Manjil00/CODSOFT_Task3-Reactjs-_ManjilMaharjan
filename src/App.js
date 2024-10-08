@@ -3,7 +3,12 @@
 function App() {
   return (
     <div className="App">
-      <h1 className="text-red-800 text-center"> SETUP</h1>
+      <div className="main-container  h-full w-full bg-black">
+        
+
+      </div>
+
+
     </div>
   );
 }
