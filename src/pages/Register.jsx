@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
 import Typewriter from '../components/Typerwriter';
 import { Link } from 'react-router-dom';
+import {toast,ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+
+import {auth,db} from "../firebase";
 import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { setDoc,doc } from 'firebase/firestore';
 
 const Register = () => {
 
@@ -15,12 +20,20 @@ const Register = () => {
         e.preventDefault();
         try{
         await createUserWithEmailAndPassword(auth, email,password);
-        const user=auth.currentUser;
+        const user = auth.currentUser;
             console.log(user);
-            console.log("Successfully registerred!!!")
+            if(user){
+                await setDoc(doc(db, "Users", user.uid),{
+                    firstname: fname,
+                    userName:username,
+                    email: user.email,
+                });
+            }
+            toast.success('Successfully registerred!!!', {position:"top-center",})
         }
         catch(error){
-            console.log(error.message);
+            toast.error(error.message, {position:"bottom-center",})
+
         }
 }
 
