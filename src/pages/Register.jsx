@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Typewriter from '../components/Typerwriter';
 import { Link } from 'react-router-dom';
-import {toast,ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -27,6 +27,7 @@ const Register = () => {
                     firstname: fname,
                     userName:username,
                     email: user.email,
+                    passWord: password
                 });
             }
             toast.success('Successfully registerred!!!', {position:"top-center",})
