@@ -1,6 +1,7 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import { getAuth } from "firebase/auth";
 
 firebase.initializeApp({
     apiKey: "AIzaSyCFQYJpRIGOAEYRSMZHhViKPscckdPILkY",
@@ -14,4 +15,5 @@ firebase.initializeApp({
 
 const fb = firebase;
 
+export const auth=getAuth();
 export default fb;

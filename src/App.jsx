@@ -4,7 +4,7 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import MyBlogs from "./pages/MyBlogs";
 import Profile from "./pages/Profile";
-
+import { ToastContainer } from "react-toastify";
 
 function App() {
 return (
@@ -16,6 +16,7 @@ return (
 <Route path="/MyBlogs" element={<MyBlogs/>}/>
 <Route path="/Profile" element={<Profile/>}/>
 </Routes>
+<ToastContainer/>
 </BrowserRouter>
 );
 }
