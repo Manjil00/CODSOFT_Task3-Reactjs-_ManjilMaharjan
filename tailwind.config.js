@@ -15,6 +15,7 @@ animation:{
 colors:{
   bgdeepTurquoise:'#17616E',
   orange:'#FD8916',
+  blacklite: '#212124',
   },
   },
   

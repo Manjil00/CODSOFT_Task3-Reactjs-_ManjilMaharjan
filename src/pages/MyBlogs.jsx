@@ -14,7 +14,7 @@ const handleSubmit=()=>{
 
 
 return (
-    <div className='main-container w-full h-auto'>
+    <div className='main-container w-full h-auto bg-blacklite'>
     <Nav/>
     <form onSubmit={handleSubmit}
     className="inputs h-[500px] w-full flex justify-center items-center mt-5 ">
