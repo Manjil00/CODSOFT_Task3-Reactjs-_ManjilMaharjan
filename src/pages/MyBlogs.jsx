@@ -5,6 +5,11 @@ import { db } from "../firebase";
 // Firebase Firestore
 import { addDoc, collection, getDocs } from "firebase/firestore";
 
+//ICONS
+import { FiEdit } from "react-icons/fi";
+import { RiDeleteBinLine } from "react-icons/ri";
+
+
 const MyBlogs = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
@@ -31,6 +36,14 @@ const MyBlogs = () => {
   useEffect(() => {
     fetchBlogs();
   }, []);
+
+  const handleEdit=()=>{
+    console.log("Edit button clicked");
+  }
+
+  const handleDelete=()=>{
+    console.log("Delete button clicked");
+  }
 
 return (
     <div className="main-container w-full h-auto bg-blacklite">
@@ -61,15 +74,25 @@ return (
         </div>
     </form>
 
-    <div className="myblogs h-auto w-full bg-blacklite mt-5 flex flex-col items-center">
+    <div className="myblogs h-auto w-full bg-blacklite mt-5 ">
         {myblogs.map((blog) => (
-        <div key={blog.id} className="innerpart bg-bgdeepTurquoise h-auto w-[80%] mt-5 rounded-xl p-6">
+          <div className="myblog flex flex-col items-center">
+          <div key={blog.id} className="innerpart bg-bgdeepTurquoise h-auto w-[80%] mt-5 rounded-xl p-6">
             <h1 className="font-sans text-lg md:text-4xl font-bold text-orange break-words">
             {blog.title}
             </h1>
             <p className="font-sans text-xs md:text-xl break-words mt-4">
             {blog.content}
             </p>
+            <div className="editDelete flex justify-center items-center ">
+          <button onClick={handleEdit}
+          className='h-[50px] w-[50px]'><FiEdit /></button>
+          <button onClick={handleDelete}
+          className='h-[50px] w-[50px]'><RiDeleteBinLine /></button>
+
+        </div>
+        </div>
+      
         </div>
         ))}
     </div>
