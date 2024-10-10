@@ -11,7 +11,7 @@ return (
     <Nav/>
 
     <div className="home h-auto w-full mt-5  flex flex-col justify-center items-center">
-        <h1 className='font-sans text-orange text-xl md:text-4xl font-bold'>Others Blogs</h1>
+        <h1 className='font-serif text-orange text-xl md:text-4xl font-bold'>Others Blogs</h1>
     
 {mockdata.map((blog,id)=>{
     return(<div className="innerpart bg-bgdeepTurquoise h-auto w-[80%] mt-5 rounded-xl p-6">

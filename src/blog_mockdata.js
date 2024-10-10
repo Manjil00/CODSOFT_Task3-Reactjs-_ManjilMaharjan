@@ -1,402 +1,161 @@
-
-export const mockdata=[{
+export const mockdata = [{
   "id": 1,
   "title": "Whimsical Wonders",
-  "content": "Excepteur sint occaecat cupidatat non proident"
+  "content": "Excepteur sint occaecat cupidatat non proident. Random fact: Cats can jump up to six times their body length.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old."
 }, {
   "id": 2,
   "title": "Whispers in the Wind",
-  "content": "tellus ac cursus commodo"
+  "content": "Tellus ac cursus commodo. Did you know? A group of flamingos is called a 'flamboyance'.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old."
 }, {
   "id": 3,
   "title": "Whimsical Wonders",
-  "content": "Morbi leo risus"
+  "content": "Morbi leo risus. Bonus trivia: Honey never spoils, and archaeologists have found 3,000-year-old honey in tombs."
 }, {
   "id": 4,
   "title": "Midnight Moonlight",
-  "content": "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  "content": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Interesting: Bananas are berries, but strawberries are not."
 }, {
   "id": 5,
   "title": "Whispers in the Wind",
-  "content": "dapibus ac facilisis in"
+  "content": "Dapibus ac facilisis in. Random thought: A single cloud can weigh more than a million pounds."
 }, {
   "id": 6,
   "title": "Fireside Tales",
-  "content": "Nullam id dolor id nibh ultricies vehicula ut id elit."
+  "content": "Nullam id dolor id nibh ultricies vehicula ut id elit. Fun fact: Octopuses have three hearts."
 }, {
   "id": 7,
   "title": "Whimsical Wonders",
-  "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. By the way, honeybees can recognize human faces."
 }, {
   "id": 8,
   "title": "Mystic Shadows",
-  "content": "Vestibulum id ligula porta felis euismod semper."
+  "content": "Vestibulum id ligula porta felis euismod semper. Trivia: The Eiffel Tower can grow by six inches during hot days due to the expansion of the metal."
 }, {
   "id": 9,
   "title": "Whimsical Wonders",
-  "content": "tortor mauris condimentum nibh"
+  "content": "Tortor mauris condimentum nibh. Random fun fact: Koalas sleep up to 22 hours a day.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old.Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old."
 }, {
   "id": 10,
   "title": "Whimsical Wonders",
-  "content": "dapibus ac facilisis in"
+  "content": "Dapibus ac facilisis in. Curious fact: An astronaut's height can increase by up to 2 inches while in space."
 }, {
   "id": 11,
   "title": "Mystic Shadows",
-  "content": "egestas eget quam."
+  "content": "Egestas eget quam. Fun thought: The shortest war in history lasted 38 to 45 minutes."
 }, {
   "id": 12,
   "title": "The Secret Garden",
-  "content": "egestas eget quam."
+  "content": "Egestas eget quam. Fascinating: A day on Venus is longer than a year on Venus."
 }, {
   "id": 13,
   "title": "Fireside Tales",
-  "content": "egestas eget quam."
+  "content": "Egestas eget quam. Fun fact: A snail can sleep for up to three years."
 }, {
   "id": 14,
   "title": "Whispers in the Wind",
-  "content": "tortor mauris condimentum nibh"
+  "content": "Tortor mauris condimentum nibh. Did you know? Sea otters hold hands when they sleep to keep from drifting apart."
 }, {
   "id": 15,
   "title": "Twilight Symphony",
-  "content": "tortor mauris condimentum nibh"
+  "content": "Tortor mauris condimentum nibh. Random trivia: Wombat poop is cube-shaped."
 }, {
   "id": 16,
   "title": "Twilight Symphony",
-  "content": "porta ac consectetur ac"
+  "content": "Porta ac consectetur ac. Bonus fact: The longest hiccuping spree lasted 68 years."
 }, {
   "id": 17,
   "title": "Fireside Tales",
-  "content": "dapibus ac facilisis in"
+  "content": "Dapibus ac facilisis in. Fun fact: You can hear a blue whale's heartbeat from over two miles away."
 }, {
   "id": 18,
   "title": "The Secret Garden",
-  "content": "Morbi leo risus"
+  "content": "Morbi leo risus. Trivia: Sharks existed before trees."
 }, {
   "id": 19,
   "title": "Echoes of Eternity",
-  "content": "Vestibulum id ligula porta felis euismod semper."
+  "content": "Vestibulum id ligula porta felis euismod semper. Random: A flock of crows is known as a 'murder'."
 }, {
   "id": 20,
   "title": "Starlight Serenade",
-  "content": "vestibulum at eros."
+  "content": "Vestibulum at eros. Fun thought: If you drilled a hole straight through the Earth and jumped in, it would take you about 42 minutes to get to the other side."
 }, {
   "id": 21,
   "title": "Whispers in the Wind",
-  "content": "consectetur adipiscing elit."
+  "content": "Consectetur adipiscing elit. Fascinating fact: Sloths can hold their breath longer than dolphins."
 }, {
   "id": 22,
   "title": "Twilight Symphony",
-  "content": "Ut enim ad minim veniam"
+  "content": "Ut enim ad minim veniam. Bonus: A bolt of lightning contains enough energy to toast 100,000 slices of bread."
 }, {
   "id": 23,
   "title": "Mystic Shadows",
-  "content": "Excepteur sint occaecat cupidatat non proident"
+  "content": "Excepteur sint occaecat cupidatat non proident. Random: It takes 570 gallons of paint to cover the exterior of the White House."
 }, {
   "id": 24,
   "title": "Whispers in the Wind",
-  "content": "porta ac consectetur ac"
+  "content": "Porta ac consectetur ac. Did you know? A group of jellyfish is called a 'smack'."
 }, {
   "id": 25,
   "title": "Mystic Shadows",
-  "content": "Cras justo odio"
+  "content": "Cras justo odio. Fun fact: The world's smallest reptile was discovered in 2021 – it's just over half an inch long."
 }, {
   "id": 26,
   "title": "Midnight Moonlight",
-  "content": "egestas eget quam."
+  "content": "Egestas eget quam. Trivia: The inventor of the frisbee was turned into a frisbee after he died."
 }, {
   "id": 27,
   "title": "Twilight Symphony",
-  "content": "Fusce dapibus"
+  "content": "Fusce dapibus. Random: The world's oldest piece of chewing gum is over 9,000 years old."
 }, {
   "id": 28,
   "title": "Fireside Tales",
-  "content": "Fusce dapibus"
+  "content": "Fusce dapibus. Fun fact: A crocodile can't stick its tongue out."
 }, {
   "id": 29,
   "title": "Starlight Serenade",
-  "content": "Fusce dapibus"
+  "content": "Fusce dapibus. Interesting: You can't hum while holding your nose."
 }, {
   "id": 30,
   "title": "Midnight Moonlight",
-  "content": "vestibulum at eros."
+  "content": "Vestibulum at eros. Curious: Banging your head against a wall for one hour burns 150 calories."
 }, {
   "id": 31,
   "title": "Echoes of Eternity",
-  "content": "Fusce dapibus"
+  "content": "Fusce dapibus. Did you know? A shrimp's heart is in its head."
 }, {
   "id": 32,
   "title": "Whimsical Wonders",
-  "content": "egestas eget quam."
+  "content": "Egestas eget quam. Fun trivia: The Guinness World Record for the longest hiccuping spree is held by Charles Osborne, who hiccupped continuously for 68 years."
 }, {
   "id": 33,
   "title": "Whispers in the Wind",
-  "content": "ut fermentum massa justo sit amet risus."
+  "content": "Ut fermentum massa justo sit amet risus. Did you know? Elephants are the only animals that can't jump."
 }, {
   "id": 34,
   "title": "Whimsical Wonders",
-  "content": "Vestibulum id ligula porta felis euismod semper."
+  "content": "Vestibulum id ligula porta felis euismod semper. Random fact: A rhinoceros' horn is made of hair."
 }, {
   "id": 35,
   "title": "Echoes of Eternity",
-  "content": "tortor mauris condimentum nibh"
+  "content": "Tortor mauris condimentum nibh. Fun: Pigeons can tell the difference between paintings by Monet and Picasso."
 }, {
   "id": 36,
   "title": "Enchanted Dreams",
-  "content": "sunt in culpa qui officia deserunt mollit anim id est laborum."
+  "content": "Sunt in culpa qui officia deserunt mollit anim id est laborum. Fun fact: Sea otters have a pouch under their forearm to store food."
 }, {
   "id": 37,
   "title": "Twilight Symphony",
-  "content": "tortor mauris condimentum nibh"
+  "content": "Tortor mauris condimentum nibh. Did you know? A group of flamingos is called a 'flamboyance'."
 }, {
   "id": 38,
   "title": "Starlight Serenade",
-  "content": "Vestibulum id ligula porta felis euismod semper."
+  "content": "Vestibulum id ligula porta felis euismod semper. Fun trivia: Octopuses have three hearts, and their blood is blue."
 }, {
   "id": 39,
   "title": "Whispers in the Wind",
-  "content": "Excepteur sint occaecat cupidatat non proident"
+  "content": "Excepteur sint occaecat cupidatat non proident. Random fact: A human can hear a blue whale's heartbeat from two miles away."
 }, {
   "id": 40,
   "title": "Midnight Moonlight",
-  "content": "Ut enim ad minim veniam"
-}, {
-  "id": 41,
-  "title": "The Secret Garden",
-  "content": "Fusce dapibus"
-}, {
-  "id": 42,
-  "title": "Whispers in the Wind",
-  "content": "sunt in culpa qui officia deserunt mollit anim id est laborum."
-}, {
-  "id": 43,
-  "title": "Whimsical Wonders",
-  "content": "tellus ac cursus commodo"
-}, {
-  "id": 44,
-  "title": "Mystic Shadows",
-  "content": "Nullam id dolor id nibh ultricies vehicula ut id elit."
-}, {
-  "id": 45,
-  "title": "The Secret Garden",
-  "content": "Lorem ipsum dolor sit amet"
-}, {
-  "id": 46,
-  "title": "Midnight Moonlight",
-  "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-}, {
-  "id": 47,
-  "title": "Whispers in the Wind",
-  "content": "Lorem ipsum dolor sit amet"
-}, {
-  "id": 48,
-  "title": "Fireside Tales",
-  "content": "egestas eget quam."
-}, {
-  "id": 49,
-  "title": "Fireside Tales",
-  "content": "vestibulum at eros."
-}, {
-  "id": 50,
-  "title": "Echoes of Eternity",
-  "content": "ut fermentum massa justo sit amet risus."
-}, {
-  "id": 51,
-  "title": "Twilight Symphony",
-  "content": "Nullam id dolor id nibh ultricies vehicula ut id elit."
-}, {
-  "id": 52,
-  "title": "Starlight Serenade",
-  "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-}, {
-  "id": 53,
-  "title": "Whispers in the Wind",
-  "content": "vestibulum at eros."
-}, {
-  "id": 54,
-  "title": "Fireside Tales",
-  "content": "Nullam id dolor id nibh ultricies vehicula ut id elit."
-}, {
-  "id": 55,
-  "title": "Mystic Shadows",
-  "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-}, {
-  "id": 56,
-  "title": "Echoes of Eternity",
-  "content": "Lorem ipsum dolor sit amet"
-}, {
-  "id": 57,
-  "title": "Fireside Tales",
-  "content": "Fusce dapibus"
-}, {
-  "id": 58,
-  "title": "The Secret Garden",
-  "content": "Vestibulum id ligula porta felis euismod semper."
-}, {
-  "id": 59,
-  "title": "Echoes of Eternity",
-  "content": "Morbi leo risus"
-}, {
-  "id": 60,
-  "title": "The Secret Garden",
-  "content": "Fusce dapibus"
-}, {
-  "id": 61,
-  "title": "Whimsical Wonders",
-  "content": "tellus ac cursus commodo"
-}, {
-  "id": 62,
-  "title": "Twilight Symphony",
-  "content": "vestibulum at eros."
-}, {
-  "id": 63,
-  "title": "The Secret Garden",
-  "content": "tortor mauris condimentum nibh"
-}, {
-  "id": 64,
-  "title": "The Secret Garden",
-  "content": "Fusce dapibus"
-}, {
-  "id": 65,
-  "title": "The Secret Garden",
-  "content": "Vestibulum id ligula porta felis euismod semper."
-}, {
-  "id": 66,
-  "title": "Midnight Moonlight",
-  "content": "egestas eget quam."
-}, {
-  "id": 67,
-  "title": "Fireside Tales",
-  "content": "egestas eget quam."
-}, {
-  "id": 68,
-  "title": "Whimsical Wonders",
-  "content": "porta ac consectetur ac"
-}, {
-  "id": 69,
-  "title": "Whimsical Wonders",
-  "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-}, {
-  "id": 70,
-  "title": "Fireside Tales",
-  "content": "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-}, {
-  "id": 71,
-  "title": "Enchanted Dreams",
-  "content": "Fusce dapibus"
-}, {
-  "id": 72,
-  "title": "Fireside Tales",
-  "content": "porta ac consectetur ac"
-}, {
-  "id": 73,
-  "title": "Whispers in the Wind",
-  "content": "tortor mauris condimentum nibh"
-}, {
-  "id": 74,
-  "title": "Enchanted Dreams",
-  "content": "dapibus ac facilisis in"
-}, {
-  "id": 75,
-  "title": "Starlight Serenade",
-  "content": "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-}, {
-  "id": 76,
-  "title": "Mystic Shadows",
-  "content": "tortor mauris condimentum nibh"
-}, {
-  "id": 77,
-  "title": "Midnight Moonlight",
-  "content": "Vestibulum id ligula porta felis euismod semper."
-}, {
-  "id": 78,
-  "title": "Starlight Serenade",
-  "content": "Morbi leo risus"
-}, {
-  "id": 79,
-  "title": "Echoes of Eternity",
-  "content": "ut fermentum massa justo sit amet risus."
-}, {
-  "id": 80,
-  "title": "Enchanted Dreams",
-  "content": "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-}, {
-  "id": 81,
-  "title": "Midnight Moonlight",
-  "content": "porta ac consectetur ac"
-}, {
-  "id": 82,
-  "title": "Whimsical Wonders",
-  "content": "tortor mauris condimentum nibh"
-}, {
-  "id": 83,
-  "title": "Echoes of Eternity",
-  "content": "sunt in culpa qui officia deserunt mollit anim id est laborum."
-}, {
-  "id": 84,
-  "title": "Midnight Moonlight",
-  "content": "Lorem ipsum dolor sit amet"
-}, {
-  "id": 85,
-  "title": "Midnight Moonlight",
-  "content": "dapibus ac facilisis in"
-}, {
-  "id": 86,
-  "title": "Whispers in the Wind",
-  "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-}, {
-  "id": 87,
-  "title": "Mystic Shadows",
-  "content": "Cras justo odio"
-}, {
-  "id": 88,
-  "title": "Whispers in the Wind",
-  "content": "sunt in culpa qui officia deserunt mollit anim id est laborum."
-}, {
-  "id": 89,
-  "title": "Whispers in the Wind",
-  "content": "tellus ac cursus commodo"
-}, {
-  "id": 90,
-  "title": "Whimsical Wonders",
-  "content": "Lorem ipsum dolor sit amet"
-}, {
-  "id": 91,
-  "title": "Whimsical Wonders",
-  "content": "ut fermentum massa justo sit amet risus."
-}, {
-  "id": 92,
-  "title": "The Secret Garden",
-  "content": "vestibulum at eros."
-}, {
-  "id": 93,
-  "title": "Twilight Symphony",
-  "content": "Cras justo odio"
-}, {
-  "id": 94,
-  "title": "The Secret Garden",
-  "content": "vestibulum at eros."
-}, {
-  "id": 95,
-  "title": "Whispers in the Wind",
-  "content": "consectetur adipiscing elit."
-}, {
-  "id": 96,
-  "title": "Enchanted Dreams",
-  "content": "ut fermentum massa justo sit amet risus."
-}, {
-  "id": 97,
-  "title": "The Secret Garden",
-  "content": "porta ac consectetur ac"
-}, {
-  "id": 98,
-  "title": "Mystic Shadows",
-  "content": "tortor mauris condimentum nibh"
-}, {
-  "id": 99,
-  "title": "Whimsical Wonders",
-  "content": "vestibulum at eros."
-}, {
-  "id": 100,
-  "title": "Midnight Moonlight",
-  "content": "consectetur adipiscing elit."
-}]
+  "content": "Ut enim ad minim veniam. Fascinating: Humans share 60% of their DNA with bananas."
+}];
