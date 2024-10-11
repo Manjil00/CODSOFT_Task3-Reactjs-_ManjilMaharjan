@@ -5,10 +5,9 @@ import { db } from "../firebase";
 // Firebase Firestore
 import { addDoc, collection, getDocs, updateDoc, doc, deleteDoc } from "firebase/firestore";
 
-//ICONS
+// ICONS
 import { FiEdit } from "react-icons/fi";
 import { RiDeleteBinLine } from "react-icons/ri";
-
 
 const MyBlogs = () => {
   const [title, setTitle] = useState('');
@@ -17,8 +16,24 @@ const MyBlogs = () => {
   const [editId, setEditId] = useState(null);
   const postCollectionRef = collection(db, "myblogs");
 
+  // Fetch blogs
+  const fetchBlogs = async () => {
+    const data = await getDocs(postCollectionRef);
+    setMyblogs(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+  };
+
+  useEffect(() => {
+    fetchBlogs();
+  }, []);
+
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!title || !content) {
+      alert("Title and Content cannot be empty");
+      return;
+    }
 
     if (editId) {
       const blogDoc = doc(db, "myblogs", editId);
@@ -31,25 +46,16 @@ const MyBlogs = () => {
     setTitle('');
     setContent('');
     fetchBlogs();
-
-  const fetchBlogs = async () => {
-    const data = await getDocs(postCollectionRef);
-    setMyblogs(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
 
-  
-  useEffect(() => {
-    fetchBlogs();
-  }, []);
-
-  //edit
+  // Edit blog
   const handleEdit = (blog) => {
     setTitle(blog.title);
     setContent(blog.content);
     setEditId(blog.id);
   };
 
-  //delete
+  // Delete blog
   const handleDelete = async (id) => {
     const blogDoc = doc(db, "myblogs", id);
     await deleteDoc(blogDoc);
@@ -116,5 +122,5 @@ const MyBlogs = () => {
     </div>
   );
 };
-}
+
 export default MyBlogs;
